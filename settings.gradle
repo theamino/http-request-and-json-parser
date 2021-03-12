@@ -1,0 +1,3 @@
+include ':httprequestforjson'
+include ':app'
+rootProject.name = "JSONHttpConnection"
