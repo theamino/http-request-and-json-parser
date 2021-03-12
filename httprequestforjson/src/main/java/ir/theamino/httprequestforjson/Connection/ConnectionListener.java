@@ -6,5 +6,5 @@ import org.json.JSONObject;
 
 public interface ConnectionListener {
     void onConnectionSuccessfullyLoadData(Context context, JSONObject jsonObject);
-    void onConnectionError(Context context, int error_unknown);
+    void onConnectionError(Context context, String message);
 }
