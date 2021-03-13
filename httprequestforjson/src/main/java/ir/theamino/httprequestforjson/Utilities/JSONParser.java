@@ -269,7 +269,6 @@ public class JSONParser {
         VolleyRequests.getInstance(context).addToRequestQueue(request);
     }
 
-
     public void jsonRequest(Context context, final String url , final List<NameValuePair> nameValuePairs, final JSONReceivedListener jsonReceivedListener, int timeout) {
 
 

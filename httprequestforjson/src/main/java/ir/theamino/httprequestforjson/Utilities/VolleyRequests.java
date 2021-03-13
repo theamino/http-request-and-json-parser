@@ -10,7 +10,8 @@ import com.android.volley.toolbox.Volley;
 public class VolleyRequests {
     private VolleyRequests(Context context) {mContext = context;
         mRequestQueue = getRequestQueue();
-        VolleyLog.DEBUG = true;}
+        VolleyLog.DEBUG = true;
+    }
 
     private static VolleyRequests instance;
 
